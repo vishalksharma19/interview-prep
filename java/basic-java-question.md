@@ -27,7 +27,22 @@ Enables objects of different classes to be treated as objects of a common type, 
 The word ‘polymorphism’ means ‘having many forms’. In Java, polymorphism refers to the ability of a message to be displayed in more than one form. This concept is a key feature of Object-Oriented Programming and it allows objects to behave differently based on their specific class type.  
 <img width="398" alt="image" src="https://github.com/user-attachments/assets/927f803f-c4bc-41ee-aac1-8bdf137f5c0d" />  
 __Method Overloading__  
+
+Method overloading in Java means when there are multiple functions with the same name but different parameters then these functions are said to be overloaded. Functions can be overloaded by changes in the number of arguments or/and a change in the type of arguments.    
 <img width="362" alt="image" src="https://github.com/user-attachments/assets/a1229cd4-907e-46af-8d7e-05d08561dd71" />  
+
+__Method Overriding__  
+
+Runtime Polymorphism in Java known as Dynamic Method Dispatch. It is a process in which a function call to the overridden method is resolved at Runtime. This type of polymorphism is achieved by Method Overriding. Method overriding, on the other hand, occurs when a derived class has a definition for one of the member functions of the base class. That base function is said to be overridden.    
+  <img width="380" alt="image" src="https://github.com/user-attachments/assets/0c74779d-2b0e-40e4-b370-d3a8f4aa4e9b" />  
+
+__Virtual Functions__  
+
+ It allows an object of a derived class to behave as if it were an object of the base class. The derived class can override the virtual function of the base class to provide its own implementation. The function call is resolved at runtime, depending on the actual type of the object.  
+ 
+
+    
+
 
 
 
